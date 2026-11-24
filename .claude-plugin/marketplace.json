@@ -1,5 +1,6 @@
 {
   "name": "wow-forever-addon-creator",
+  "description": "Claude Code plugin for World of Warcraft addon development: a skill with in-game-tested rules, UI, mechanics and review agents, and offline test gates.",
   "owner": {
     "name": "Devsoy"
   },
