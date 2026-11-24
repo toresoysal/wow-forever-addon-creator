@@ -16,6 +16,8 @@ This plugin makes Claude treat its memory as a guess and the client as the judge
 
 **1. Build an addon from scratch.** Describe what you want; the skill scaffolds the addon, the agents build it, the gates test it.
 
+The addons below came first: the skill was distilled from building them, not used to make them from the start. EZ Target, the newest, was checked with the skill's gates on every version.
+
 | Addon (in the pack repo) | What it does | What the skill had to get right |
 |---|---|---|
 | FelCast | Cast bar dressed by spell school, proc arcs, DoT warning, healing numbers | Combat log closed to addons; secret values in combat |
