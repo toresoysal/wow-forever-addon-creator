@@ -1,0 +1,10 @@
+## Interface: __INTERFACE__
+## Title: __NAME__
+## Notes: __NOTES__
+## Author: __AUTHOR__
+## Version: 0.1.0
+## SavedVariables: __NAME__DB
+
+Log.lua
+Core.lua
+Main.lua

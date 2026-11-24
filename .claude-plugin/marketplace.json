@@ -1,0 +1,13 @@
+{
+  "name": "wow-forever-addon-creator",
+  "owner": {
+    "name": "Devsoy"
+  },
+  "plugins": [
+    {
+      "name": "wow-forever-addon-creator",
+      "source": "./",
+      "description": "WoW addon development skill + UI, mechanics and review agents, distilled from addons verified in the live WoW Forever client."
+    }
+  ]
+}
