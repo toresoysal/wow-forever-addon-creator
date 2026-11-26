@@ -67,4 +67,6 @@ Some flags such as cooldown `isActive` / `isOnGCD` stay plain — check per fiel
 
 **Tooltips.** Tooltip line text can be secret; check before `:find`/`:gsub`. This was the cause of a Lua error in a translation addon reading minimap tooltips.
 
+**Another player's class or GUID in PvP.** `UnitClass` and `UnitGUID` are secret for units outside your party/raid (`SecretWhenUnitIdentityRestricted`), so a battleground enemy's class cannot be read from the unit. `UnitName` stays open for players in PvP, and the battleground score table (`C_PvP.GetScoreInfo`) marks `name` and `classToken` as `NeverSecret`. Ask for it with `RequestBattlefieldScoreData()` (inside battlegrounds only, throttled), rebuild a name → class map on `UPDATE_BATTLEFIELD_SCORE`, and look the target up by name. On WoW Forever the second return of `UnitName` is the surname, not the realm, joined with a space; treat an ambiguous short name as unknown rather than guessing (field notes 30-31).
+
 **Never store a secret.** It cannot be saved to SavedVariables or compared later. Debug probes should record `issecretvalue(x)` as text instead of the value.

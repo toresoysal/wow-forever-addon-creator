@@ -1,6 +1,6 @@
 {
   "name": "wow-forever-addon-creator",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Build, review and ship World of Warcraft addons with Claude Code: in-game-proven rules for taint, combat lockdown and Midnight-era secret values, three specialist agents (UI, mechanics, review) and offline gates with negative tests.",
   "author": {
     "name": "Devsoy",
